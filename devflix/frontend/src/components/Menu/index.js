@@ -3,6 +3,7 @@ import Logo from '../../assets/Logo.png';
 
 import './styles.css';
 import ButtonLink from '../ButtonLink';
+import { Link } from 'react-router-dom';
 
 export default function Menu(){
     return (
@@ -11,7 +12,7 @@ export default function Menu(){
                 <img src={Logo} alt="DevFlix" className="Logo"/>
             </a>
 
-            <ButtonLink href="/" className="ButtonLink">
+            <ButtonLink as={Link} href="/cadastro/video" className="ButtonLink">
                 New Video
             </ButtonLink>
 
