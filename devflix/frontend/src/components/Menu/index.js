@@ -1,9 +1,9 @@
 import React from 'react';
-import Logo from '../../assets/Logo.png';
+import Logo from '../../assets/DevFlixpng.png';
 
 import './styles.css';
-import ButtonLink from '../ButtonLink';
-import { Link } from 'react-router-dom';
+// import ButtonLink from '../ButtonLink';
+// import { Link } from 'react-router-dom';
 
 export default function Menu(){
     return (
@@ -12,9 +12,9 @@ export default function Menu(){
                 <img src={Logo} alt="DevFlix" className="Logo"/>
             </a>
 
-            <ButtonLink as={Link} href="/cadastro/video" className="ButtonLink">
+            {/* <ButtonLink as={Link} href="/cadastro/video" className="ButtonLink">
                 New Video
-            </ButtonLink>
+            </ButtonLink> */}
 
         </nav>
 
