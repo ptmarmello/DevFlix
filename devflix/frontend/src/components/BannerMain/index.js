@@ -27,18 +27,19 @@ export default function BannerMain({
           </ContentAreaContainer.Title>
 
           <ContentAreaContainer.Description>
-            {/* {videoDescription} */} Saiba mais sobre mim <a style={{textDecoration:'none', fontSize:'24px', color:'#6BD1FF' }} href="https://about.me/pethi">aqui!</a>
-            <p>Ou veja alguns dos meus projetos abaixo</p>
+            {videoDescription} 
+            {/* Saiba mais sobre mim <a style={{textDecoration:'none', fontSize:'24px', color:'#6BD1FF' }} href="https://about.me/pethi">aqui!</a>
+            <p>Ou veja alguns dos meus projetos abaixo</p> */}
           </ContentAreaContainer.Description>
         </ContentAreaContainer.Item>
 
         <ContentAreaContainer.Item>
-          {/* <VideoIframeResponsive
+          <VideoIframeResponsive
             youtubeID={youTubeID}
-          /> */}
-          {/* <WatchButton>
+          />
+          <WatchButton>
             Assistir
-          </WatchButton> */}
+          </WatchButton>
         </ContentAreaContainer.Item>
       </ContentAreaContainer>
     </BannerMainContainer>
